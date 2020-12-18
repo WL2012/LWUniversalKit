@@ -8,7 +8,7 @@
 #import "UniNetworkManager.h"
 #import "NSString+extension.h"
 #import <AFNetworking/AFHTTPSessionManager.h>
-#import <YYModel/YYModel.h>
+#import "YYModel.h"
 
 @implementation UniNetworkManager
 

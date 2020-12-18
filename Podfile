@@ -7,7 +7,6 @@ target 'LWUniversal-Example' do
 
   # Pods for LWUniversal-Example
   pod 'AFNetworking', '~> 4.0'
-  pod 'YYModel'
   pod 'SDWebImage', '~> 5.0'
 
 end
@@ -17,7 +16,6 @@ target 'LWUniversalKit' do
   # use_frameworks!
 
   pod 'AFNetworking', '~> 4.0'
-  pod 'YYModel'
   pod 'SDWebImage', '~> 5.0'
 
 end

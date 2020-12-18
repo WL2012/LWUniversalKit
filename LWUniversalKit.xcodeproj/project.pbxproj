@@ -58,6 +58,11 @@
 		34BEEEF6258C8F28000C15E0 /* SDWaitingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BEEEE8258C8F28000C15E0 /* SDWaitingView.h */; };
 		34BEEEF7258C8F28000C15E0 /* SDPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BEEEE9258C8F28000C15E0 /* SDPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34BEEEF8258C8F28000C15E0 /* SDBrowserImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BEEEEA258C8F28000C15E0 /* SDBrowserImageView.h */; };
+		34BEEF47258CB5D2000C15E0 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BEEF42258CB5D1000C15E0 /* YYClassInfo.h */; };
+		34BEEF48258CB5D2000C15E0 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BEEF43258CB5D1000C15E0 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34BEEF49258CB5D2000C15E0 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BEEF44258CB5D1000C15E0 /* NSObject+YYModel.m */; };
+		34BEEF4A258CB5D2000C15E0 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BEEF45258CB5D1000C15E0 /* YYClassInfo.m */; };
+		34BEEF4B258CB5D2000C15E0 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BEEF46258CB5D1000C15E0 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +135,11 @@
 		34BEEEE8258C8F28000C15E0 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
 		34BEEEE9258C8F28000C15E0 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
 		34BEEEEA258C8F28000C15E0 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		34BEEF42258CB5D1000C15E0 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		34BEEF43258CB5D1000C15E0 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		34BEEF44258CB5D1000C15E0 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		34BEEF45258CB5D1000C15E0 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		34BEEF46258CB5D1000C15E0 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
 		F3B984877ADFD692595A909D /* Pods-LWUniversalKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWUniversalKit.release.xcconfig"; path = "Target Support Files/Pods-LWUniversalKit/Pods-LWUniversalKit.release.xcconfig"; sourceTree = "<group>"; };
 		F5BDFC97B4DDE03B0AE1146F /* Pods-LWUniversal-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWUniversal-Example.release.xcconfig"; path = "Target Support Files/Pods-LWUniversal-Example/Pods-LWUniversal-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -251,6 +261,7 @@
 		34BEEED9258C8E6C000C15E0 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
+				34BEEF41258CB5D1000C15E0 /* YYModel */,
 				34BEEEDA258C8F28000C15E0 /* MBProgressHUD */,
 				34BEEEDD258C8F28000C15E0 /* SDAutoLayout */,
 				34BEEEE3258C8F28000C15E0 /* SDPhotoBrowser */,
@@ -293,6 +304,18 @@
 			path = SDPhotoBrowser;
 			sourceTree = "<group>";
 		};
+		34BEEF41258CB5D1000C15E0 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				34BEEF42258CB5D1000C15E0 /* YYClassInfo.h */,
+				34BEEF43258CB5D1000C15E0 /* YYModel.h */,
+				34BEEF44258CB5D1000C15E0 /* NSObject+YYModel.m */,
+				34BEEF45258CB5D1000C15E0 /* YYClassInfo.m */,
+				34BEEF46258CB5D1000C15E0 /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
 		D22C9AF4AFE859BD6C29DE9A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,8 +341,11 @@
 				34BEEEEC258C8F28000C15E0 /* MBProgressHUD.h in Headers */,
 				34BEED88258B5357000C15E0 /* UniNetworkManager.h in Headers */,
 				34BEEEF7258C8F28000C15E0 /* SDPhotoBrowser.h in Headers */,
+				34BEEF47258CB5D2000C15E0 /* YYClassInfo.h in Headers */,
+				34BEEF48258CB5D2000C15E0 /* YYModel.h in Headers */,
 				34BEEDCE258B5D94000C15E0 /* NSString+extension.h in Headers */,
 				34BEED5A258B2B8F000C15E0 /* UniMacro.h in Headers */,
+				34BEEF4B258CB5D2000C15E0 /* NSObject+YYModel.h in Headers */,
 				34BEEEEE258C8F28000C15E0 /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
 				34BEEEF1258C8F28000C15E0 /* UIView+SDAutoLayout.h in Headers */,
 				34BEEEF2258C8F28000C15E0 /* SDPhotoBrowserConfig.h in Headers */,
@@ -502,11 +528,13 @@
 				34BEED20258B2506000C15E0 /* TestObject.m in Sources */,
 				34BEEEED258C8F28000C15E0 /* UIView+SDAutoLayout.m in Sources */,
 				34BEEEF0258C8F28000C15E0 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				34BEEF49258CB5D2000C15E0 /* NSObject+YYModel.m in Sources */,
 				34BEEEEB258C8F28000C15E0 /* MBProgressHUD.m in Sources */,
 				34BEEDBE258B5A4F000C15E0 /* PMBaseParams.m in Sources */,
 				34BEEEF4258C8F28000C15E0 /* SDWaitingView.m in Sources */,
 				34BEEEF5258C8F28000C15E0 /* SDBrowserImageView.m in Sources */,
 				34BEEDCF258B5D94000C15E0 /* NSString+extension.m in Sources */,
+				34BEEF4A258CB5D2000C15E0 /* YYClassInfo.m in Sources */,
 				34BEEEF3258C8F28000C15E0 /* SDPhotoBrowser.m in Sources */,
 				34BEED89258B5357000C15E0 /* UniNetworkManager.m in Sources */,
 				34BEED60258B2C2D000C15E0 /* UniDevice.m in Sources */,

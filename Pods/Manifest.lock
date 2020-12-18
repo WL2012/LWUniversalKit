@@ -17,24 +17,20 @@ PODS:
   - SDWebImage (5.10.0):
     - SDWebImage/Core (= 5.10.0)
   - SDWebImage/Core (5.10.0)
-  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 4.0)
   - SDWebImage (~> 5.0)
-  - YYModel
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - SDWebImage
-    - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
-  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 90a508fff593777198c25df1d7aab502bb0518e4
+PODFILE CHECKSUM: b24a0eac0df77697b3e6bb8ab9306a938e330e86
 
 COCOAPODS: 1.10.0
